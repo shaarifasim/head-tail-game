@@ -1,0 +1,60 @@
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url('./assets/Coin_Flip_183981489-2160.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+button{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:gray;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* margin-left: 15px; */
+    width: 15%;
+    height: 44px;
+}
+button:hover{
+    background-color: black;
+}
+
+/* div{
+    border: 1px solid green;
+    text-align: center;
+} */
+#main{
+    margin-top: 24%;
+    display: flex;
+    align-items: center;
+}
+.user1{
+    width: 30%;
+
+}
+.user2{
+    width: 30%;
+
+}
+#Timer {
+    width: 25%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(20, 1, 1);
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    box-shadow: 4px 4px 7px white;
+}
+
